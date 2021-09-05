@@ -1,5 +1,5 @@
 - name: "Base-devel + Common packages"
-  description: "Recommended. Don't change unless you know what you're doing. Base-devel group and some other commom utilities (generic)"
+  description: "Generic Base-devel"
   hidden: false
   selected: true
   critical: false
@@ -11,7 +11,7 @@
     - firefox
     - firefox-i18n-$LOCALE
 - name: "Budgie"
-  description: "uses GNOME technologies such as GTK, and is developed by the Solus project."
+  description: "Uses GNOME technologies such as GTK, and is developed by the Solus project."
   hidden: false
   selected: false
   critical: false
