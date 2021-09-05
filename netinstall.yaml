@@ -1,0 +1,172 @@
+- name: "Base-devel + Common packages"
+  description: "Recommended. Don't change unless you know what you're doing. Base-devel group and some other commom utilities (generic)"
+  hidden: false
+  selected: true
+  critical: false
+  packages:
+    - rebornos-cosmic-common
+    - rebornos-cosmic-full-base
+    - base
+    - base-devel
+    - firefox
+    - firefox-i18n-$LOCALE
+- name: "Budgie"
+  description: "uses GNOME technologies such as GTK, and is developed by the Solus project."
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - rebornos-cosmic-budgie
+    - lightdm
+    - lightdm-gtk-greeter
+    - rebornos-lightdm-gtk-greeter-images
+    - lightdm-gtk-greeter-settings
+- name: "Cinnamon"
+  description: "Free and open-source desktop environment for the X Window System that derives from GNOME 3."
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - network-manager-applet
+    - rebornos-cosmic-cinnamon
+    - lightdm
+    - lightdm-gtk-greeter
+    - rebornos-lightdm-gtk-greeter-images
+    - lightdm-gtk-greeter-settings
+- name: "Deepin"
+  description: "It features DDE, the Deepin Desktop Environment, built on Qt."
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - rebornos-cosmic-deepin
+    - lightdm
+- name: "GNOME"
+  description: "is a graphical user interface (GUI) and set of computer desktop applications. "
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - rebornos-cosmic-gnome
+    - network-manager-applet
+    - lightdm
+    - lightdm-gtk-greeter
+    - rebornos-lightdm-gtk-greeter-images
+    - lightdm-gtk-greeter-settings
+- name: "i3"
+  description: "Tiling window manager, primarily targeted at developers and advanced users. "
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - rebornos-cosmic-i3
+    - lightdm
+    - lightdm-gtk-greeter
+    - rebornos-lightdm-gtk-greeter-images
+    - lightdm-gtk-greeter-settings
+- name: "KDE"
+  description: "It's a complete application ecosystem with everything that you need to use."
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - rebornos-cosmic-kde
+    - lightdm
+    - lightdm-gtk-greeter
+    - rebornos-lightdm-gtk-greeter-images
+    - lightdm-gtk-greeter-settings
+- name: "LXDE"
+  description: "Is a free desktop environment with comparatively low resource requirements."
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - rebornos-cosmic-openbox
+    - lxde-gtk3
+    - lightdm
+    - lightdm-gtk-greeter
+    - rebornos-lightdm-gtk-greeter-images
+    - lightdm-gtk-greeter-settings
+- name: "LXQt"
+  description: "The Lightweight Qt Desktop Environment."
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - rebornos-cosmic-lxqt
+    - lightdm
+    - lightdm-gtk-greeter
+    - rebornos-lightdm-gtk-greeter-images
+    - lightdm-gtk-greeter-settings
+- name: "MATE"
+  description: "Aims to maintain and continue the latest GNOME 2 code base, frameworks, and core applications"
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - rebornos-cosmic-mate
+    - lightdm
+    - lightdm-gtk-greeter
+    - rebornos-lightdm-gtk-greeter-images
+    - lightdm-gtk-greeter-settings
+- name: "Openbox"
+  description: "a highly configurable, next generation window manager with extensive standards support.."
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - rebornos-cosmic-openbox
+    - lxde-gtk3
+    - lightdm
+    - lightdm-gtk-greeter
+    - rebornos-lightdm-gtk-greeter-images
+    - lightdm-gtk-greeter-settings
+- name: "UKUI"
+  description: "Best known to be the user interface of Ubuntu Kylin."
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - rebornos-cosmic-ukui
+    - lightdm
+    - lightdm-gtk-greeter
+    - rebornos-lightdm-gtk-greeter-images
+    - lightdm-gtk-greeter-settings
+- name: "XFCE"
+  description: "Fast and lightweight while still being visually appealing and easy to use."
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - rebornos-cosmic-xfce
+    - lightdm
+    - lightdm-gtk-greeter
+    - rebornos-lightdm-gtk-greeter-images
+    - lightdm-gtk-greeter-settings
+- name: "Printing-Support"
+  description: "Support for printing (Cups)"
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - rebornos-cosmic-cups
+    - system-config-printer
+- name: "Support for HP Printer/Scanner"
+  description: "Extra Packages for HP Printer/Scanner"
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - hplip
+    - python-pyqt5
+    - python-reportlab
+    - xsane
+- name: "Accessibility Tools"
+  description: "Screen reader and mouse tweaks (impaired vision)"
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - orca
+    - mousetweaks
+    - espeak-ng
